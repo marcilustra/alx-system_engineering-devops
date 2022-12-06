@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -s | set | printenv
+declare -l -f | set | printenv
